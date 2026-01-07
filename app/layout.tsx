@@ -22,13 +22,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+  return (  
+      <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Matter:wght@400;500;600;700&display=swap" />
+      </head>
+      <body className="font-matter">{children}</body>
     </html>
   );
 }

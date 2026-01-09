@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
 
 export const metadata: Metadata = {
   title: "SSA Hunter Valley - Tennis Academy",
@@ -15,8 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-matter">
-        <Navbar />
-        <div className="pt-[6vw]">
+        <div className="">
           {children}
         </div>
       </body>

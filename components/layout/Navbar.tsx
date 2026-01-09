@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white z-50">
+    <nav className="top-0 left-0 right-0 bg-white z-50">
       <div className="flex items-center justify-between px-[3vw] py-[1vw]">
         <div className="w-[8vw] h-[3vw] relative">
           <Image 
@@ -12,8 +12,7 @@ export default function Navbar() {
             className="object-contain"
           />
         </div>
-        
-        <div className="w-[8vw]"></div>
+     
       </div>
     </nav>
   );

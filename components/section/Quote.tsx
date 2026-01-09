@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Quote() {
   return (
-    <section className="relative w-full h-[50vw] md:h-[25vw] flex items-center justify-start px-[8vw] md:px-[12vw]">
+    <section className="relative w-full h-[50vw] md:h-[25vw] flex items-center  px-[6vw] md:px-[18vw] ">
       <Image 
         src="/quote/quote-bg.svg" 
         alt="" 
@@ -13,7 +13,7 @@ export default function Quote() {
       <div className="absolute inset-0 bg-black/10"></div>
 
       <div className="relative z-10 text-white max-w-[400vw] md:max-w-[100vw]">
-        <p className="text-[4vw] md:text-[1.8vw] font-semibold leading-[1.4] mb-[3vw] md:mb-[2vw] text-center">
+        <p className="text-[4vw] md:text-[1.8vw] font-semibold leading-[1.4] mb-[3vw] md:mb-[2vw] ">
           " We have created an environment ideal for building craft. Our goal is to be recognized as the best tennis performance centre in the world. "
         </p>
 

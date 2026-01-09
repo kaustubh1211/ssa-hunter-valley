@@ -10,11 +10,11 @@ import Location from "@/components/section/Location";
 import Professionals from "@/components/section/Professionals";
 import Programs from "@/components/section/Program";
 import Quote from "@/components/section/Quote";
-import Image from "next/image";
 
 export default function Home() {
   return (
    <main>
+    <Navbar/>
     <Hero/>
     <AboutUs/>
     <Quote/>

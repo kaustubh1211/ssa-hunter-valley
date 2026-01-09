@@ -40,7 +40,7 @@ export default function Professionals() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[6vw] md:gap-[2vw]">
           {professionals.map((professional, index) => (
             <div key={index}>
-              <div className="relative w-full h-[80vw] md:h-[28vw] rounded-[2vw] md:rounded-[1vw] overflow-hidden mb-[3vw] md:mb-[1.5vw]">
+              <div className="relative w-full h-[80vw] md:h-[24vw] rounded-[2vw] md:rounded-[1vw] overflow-hidden mb-[3vw] md:mb-[1.5vw]">
                 <Image 
                   src={professional.image} 
                   alt={professional.name} 

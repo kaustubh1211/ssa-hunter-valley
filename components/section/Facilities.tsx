@@ -29,7 +29,7 @@ export default function Facilities() {
   ];
 
   return (
-    <section className="bg-white py-[12vw] md:py-[8vw] relative overflow-hidden">
+    <section className="bg-white py-[12vw] md:py-[5vw] md:mb-[4vw] relative overflow-hidden">
       <div className="max-w-[90vw] md:max-w-[95vw] mx-auto mb-[8vw] md:mb-[5vw] px-[6vw] md:px-[5vw]">
         <div className="flex items-center gap-[1vw] mb-[2vw] md:mb-[1vw]">
           <h2 className="text-[6vw] md:text-[2.2vw] font-bold">Facilities</h2>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[94vh] flex items-center justify-center overflow-hidden">
       <Image
         src="/hero/background.gif"
         alt="Hero Background"
@@ -32,17 +32,17 @@ export default function Hero() {
             }}
           ></div>
           
-          <div className="relative flex items-center justify-center gap-[4vw] md:gap-[2.5vw] px-[5vw] md:px-[3.5vw] py-[1.5vw] md:py-[0.8vw]">
+          <div className="relative flex items-center justify-center gap-[4vw] md:gap-[3.5vw] px-[5vw] md:px-[8.5vw] py-[1.5vw] md:py-[0.8vw]">
             <span className="text-[2.5vw] md:text-[1.1vw] font-medium">ADOPT</span>
-            <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#D2F24F]"></span>
+            <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#ffffff]"></span>
             <span className="text-[2.5vw] md:text-[1.1vw] font-medium">NURTURE</span>
-            <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#D2F24F]"></span>
+            <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#ffffff]"></span>
             <span className="text-[2.5vw] md:text-[1.1vw] font-medium">DELIVER</span>
           </div>
         </div>
 
         <div className="flex justify-center">
-          <button className="border-[0.2vw] border-white text-white px-[5vw] md:px-[2.5vw] py-[1.5vw] md:py-[0.7vw] rounded-full text-[3vw] md:text-[1vw] font-normal hover:bg-white hover:text-black transition-colors">
+          <button className="border-[0.1vw] border-[#99B81B] text-white px-[5vw] md:px-[2.5vw] py-[1.5vw] md:py-[0.9vw] rounded-full text-[3vw] md:text-[1vw] font-normal   transition-colors">
             Register Now
           </button>
         </div>
@@ -72,7 +72,7 @@ export default function Hero() {
     
     {/* Label + Line */}
     <div className="flex items-center gap-[1vw]">
-      <span className="text-[0.8vw] font-bold tracking-[0.2em] text-white whitespace-nowrap">SCORE</span>
+      <span className="text-[0.8vw] font-bold tracking-[0.2em] text-white whitespace-nowrap">WEATHER</span>
       <div className="w-full">
         <Image src="/icons/line.svg" alt="" width={100} height={1} className="w-full h-[0.05vw]" />
       </div>

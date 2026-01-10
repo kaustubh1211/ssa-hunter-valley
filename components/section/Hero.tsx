@@ -15,40 +15,43 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/20"></div>
 
       <div className="relative z-10 text-center text-white px-[5vw] max-w-[80vw]">
-        <p className="text-[3vw] md:text-[0.9vw] tracking-[0.3em] font-normal mb-[3vw] md:mb-[1.5vw]">
-          SSA HUNTER VALLEY
-        </p>
-        
-        <h1 className="text-[7vw] md:text-[3.5vw] font-normal leading-[1.3] mb-[4vw] md:mb-[2.5vw]">
-          GROW YOUR GAME WITH THE<br />
-          <span className="font-bold">PROFESSIONALS</span>
-        </h1>
+  <p className="text-[3vw] md:text-[0.9vw] tracking-[0.3em] font-normal mb-[3vw] md:mb-[1.5vw]">
+    SSA HUNTER VALLEY
+  </p>
+  
+  <h1 className="text-[7vw] md:text-[3.5vw] font-normal leading-[1.3] mb-[4vw] md:mb-[2.5vw]">
+    GROW YOUR GAME WITH THE<br />
+    <span className="font-bold inline-block">
+      PROFESSIONALS
+      <div className="w-full h-[1px] bg-white mt-[1vw] md:mt-[0.5vw]"></div>
+    </span>
+  </h1>
 
-        <div className="relative inline-block mb-[5vw] md:mb-[3vw]">
-          <div 
-            className="absolute inset-0 blur-[2px]"
-            style={{
-              background: 'linear-gradient(90deg, rgba(205, 237, 78, 0) 3.45%, #D2F24F 50.62%, rgba(210, 242, 79, 0) 91.38%)'
-            }}
-          ></div>
-          
-          <div className="relative flex items-center justify-center gap-[4vw] md:gap-[3.5vw] px-[5vw] md:px-[8.5vw] py-[1.5vw] md:py-[0.8vw]">
-            <span className="text-[2.5vw] md:text-[1.1vw] font-medium">ADOPT</span>
-            <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#ffffff]"></span>
-            <span className="text-[2.5vw] md:text-[1.1vw] font-medium">NURTURE</span>
-            <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#ffffff]"></span>
-            <span className="text-[2.5vw] md:text-[1.1vw] font-medium">DELIVER</span>
-          </div>
-        </div>
+  <div className="relative inline-block mb-[5vw] md:mb-[3vw]">
+    <div 
+      className="absolute inset-0 blur-[2px]"
+      style={{
+        background: 'linear-gradient(90deg, rgba(205, 237, 78, 0) 3.45%, #D2F24F 50.62%, rgba(210, 242, 79, 0) 91.38%)'
+      }}
+    ></div>
+    
+    <div className="relative flex items-center justify-center gap-[4vw] md:gap-[3.5vw] px-[5vw] md:px-[8.5vw] py-[1.5vw] md:py-[0.8vw]">
+      <span className="text-[2.5vw] md:text-[1.1vw] font-medium">ADOPT</span>
+      <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#ffffff]"></span>
+      <span className="text-[2.5vw] md:text-[1.1vw] font-medium">NURTURE</span>
+      <span className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] rounded-full bg-[#ffffff]"></span>
+      <span className="text-[2.5vw] md:text-[1.1vw] font-medium">DELIVER</span>
+    </div>
+  </div>
 
-        <div className="flex justify-center">
-          <button className="border-[0.1vw] border-[#99B81B] text-white px-[5vw] md:px-[2.5vw] py-[1.5vw] md:py-[0.9vw] rounded-full text-[3vw] md:text-[1vw] font-normal   transition-colors">
-            Register Now
-          </button>
-        </div>
-      </div>
+  <div className="flex justify-center">
+    <button className="border-[0.1vw] border-[#99B81B] text-white px-[5vw] md:px-[2.5vw] py-[1.5vw] md:py-[0.9vw] rounded-full text-[3vw] md:text-[1vw] font-normal transition-colors">
+      Register Now
+    </button>
+  </div>
+</div>
 
-      <div className="absolute bottom-[3vw] left-1/2 -translate-x-1/2 hidden md:block">
+      <div className="absolute bottom-[8vw] md:bottom-[3vw] left-1/2 -translate-x-1/2 ">
         <Image
           src="/icons/down-arrow.svg" 
           alt="Scroll" 

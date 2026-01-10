@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+   metadataBase: new URL('https://ssa-hunter-valley.vercel.app'),
   title: "SSA Hunter Valley - Premier Tennis Academy | Multi-Surface Courts",
   description: "First one-stop tennis academy in Asia Pacific with 60 multi-surface courts. World-class coaching, WTA & ATP facilities in Hunter Valley, NSW. Train with professionals.",
   keywords: "tennis academy, Hunter Valley, SSA, tennis coaching, multi-surface courts, WTA, ATP, tennis training, Australia tennis, professional tennis academy",

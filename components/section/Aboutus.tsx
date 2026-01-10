@@ -7,12 +7,12 @@ export default function AboutUs() {
   return (
     <section className="bg-white py-[12vw] md:py-[8vw] px-[6vw] md:px-[5vw] relative overflow-hidden">
       
-      <div className="absolute left-0 top-[5vw] w-[25vw] md:w-[15vw] h-[30vw] md:h-[20vw]">
+      <div className="absolute left-0 top-[1vw] w-[25vw] md:w-[15vw] h-[30vw] md:h-[20vw]">
         <Image 
-          src="/about/Vector.svg" 
+          src="/about/vector.svg" 
           alt="" 
           fill
-          className="object-contain"
+          className="object-contain "
         />
       </div>
 
@@ -25,7 +25,7 @@ export default function AboutUs() {
             at one location and establish first one stop tennis academy in the Asia Pacific producing grand slam champions.
           </p>
 
-          <div className="flex items-center justify-center gap-[6vw] md:gap-[3vw] mb-[8vw] md:mb-[4vw] overflow-x-auto">
+          <div className="flex items-center mt-[7vw] justify-center gap-[6vw] md:gap-[3vw] mb-[8vw] md:mb-[4vw] overflow-x-auto">
             {tabs.map((tab, index) => (
               <button
                 key={index}

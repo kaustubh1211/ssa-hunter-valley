@@ -92,7 +92,7 @@ export default function FeaturesSection() {
               src="/feature/keyfeature1.png" 
               alt="Tennis player" 
               fill
-              className="object-cover rounded-[2vw] md:rounded-[1vw]"
+              className="object-cover  grayscale rounded-[2vw] md:rounded-[1vw]"
             />
           </div>
 

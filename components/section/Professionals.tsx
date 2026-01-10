@@ -52,7 +52,7 @@ export default function Professionals() {
               <h3 className="text-[4.5vw] md:text-[1.3vw] font-bold mb-[1vw] md:mb-[0.5vw]">
                 {professional.name}
               </h3>
-              <p className="text-[3.5vw] md:text-[0.9vw] text-gray-600 font-light italic">
+              <p className="text-[3.5vw] md:text-[0.9vw] md:w-[12vw] text-gray-600 font-light italic">
                 {professional.role}
               </p>
             </div>

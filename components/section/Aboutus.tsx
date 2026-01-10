@@ -44,10 +44,12 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[8vw] md:gap-[4vw] items-start">
           
           <div className="flex items-start gap-[3vw] md:gap-[1.5vw]">
-            <div className="w-[1vw] h-[1vw] md:w-[0.4vw] md:h-[0.4vw] bg-[#99B81B] rounded-full mt-[1vw] md:mt-[0.5vw] flex-shrink-0"></div>
             
             <div>
-              <h2 className="text-[6vw] md:text-[2.3vw] font-bold mb-[4vw] md:mb-[2vw]">About Us</h2>
+                <div className="flex items-center gap-[1vw] mb-[2vw] md:mb-[1vw]">
+              <h2 className="text-[6vw] md:text-[2.2vw] font-bold">About Us</h2>
+              <div className="w-[1vw] h-[1vw] md:w-[0.5vw] md:h-[0.5vw] bg-[#99B81B] rounded-full"></div>
+            </div>
               
               <p className="text-[3.5vw] md:text-[1vw] font-light leading-[1.6] mb-[6vw] md:mb-[3vw] text-gray-700">
                 To be the first venue in the world to have 60 multi surface courts at one location and establish first one stop tennis academy in the Asia Pacific producing grand slam champions.

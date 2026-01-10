@@ -11,21 +11,27 @@ import Professionals from "@/components/section/Professionals";
 import Programs from "@/components/section/Program";
 import Quote from "@/components/section/Quote";
 
+export const metadata = {
+  title: "Home - SSA Hunter Valley Tennis Academy",
+  description: "Train with world-class professionals at SSA Hunter Valley. 60 multi-surface courts, expert coaching, and complete tennis facilities in NSW, Australia.",
+};
+
 export default function Home() {
   return (
-   <main>
-    <Navbar/>
-    <Hero/>
-    <AboutUs/>
-    <Quote/>
-    <FeaturesSection/>
-    <Programs/>
-    <AdoptNurture/>
-    <Location/>
-    <Professionals/>
-    <Facilities/>
-    <CoachesEvents/>
-    <Footer/>
-   </main>
+    <main>
+      <h1 className="sr-only">SSA Hunter Valley - Premier Tennis Academy with 60 Multi-Surface Courts</h1>
+      <Navbar/>
+      <Hero/>
+      <AboutUs/>
+      <Quote/>
+      <FeaturesSection/>
+      <Programs/>
+      <AdoptNurture/>
+      <Location/>
+      <Professionals/>
+      <Facilities/>
+      <CoachesEvents/>
+      <Footer/>
+    </main>
   );
 }
